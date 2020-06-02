@@ -25,4 +25,20 @@
     target: '#sideNav'
   });
 
+  var i=1;
+  $("#bday").click(function(){
+    switch(i){
+      case 1:
+        console.log("Hey cutie <3");
+        break;
+      case 2:
+        console.log("Happy Birthday!!");
+        break;
+      case 3:
+        console.log("Can you find your present?");
+        break;
+      default:
+        console.log("Keep looking!");
+    }
+    i++})
 })(jQuery); // End of use strict
